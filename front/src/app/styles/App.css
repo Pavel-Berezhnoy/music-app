@@ -1,0 +1,12 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --theme-background: #222222;
+  --theme-main: #222222;
+  --theme-secondary: #141414;
+  --theme-text: #e4e4e4;
+  --theme-secondary-text: rgba(255,255,255, .1);
+}
