@@ -1,6 +1,7 @@
 import {
   Box, List, ListItemIcon, ListItemText, Typography,
 } from '@mui/material';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
 import HomeIcon from '@mui/icons-material/Home';
 import React, { memo, useMemo } from 'react';
@@ -15,7 +16,12 @@ function Navbar() {
     {
       text: 'Библиотека',
       icon: <LibraryMusicIcon color="secondary" />,
-    }]), []);
+    },
+    {
+      text: 'Профиль',
+      icon: <AccountBoxIcon color="secondary" />,
+    },
+  ]), []);
   const centerNav = useMemo(() => (['Garry topor', 'Sagath', 'Asper X']), []);
   return (
     <Box component="nav">
