@@ -27,7 +27,7 @@ services:
       - "3306:3306"
     volumes:
       - mysqldata:/var/lib/mysql
-    entrypoint: "bash -c 'echo -e \"CREATE DATABASE IF NOT EXISTS music-app;\" > /docker-entrypoint-initdb.d/rosbuket.sql &&
+    entrypoint: "bash -c 'echo -e \"CREATE DATABASE IF NOT EXISTS musicup;\" > /docker-entrypoint-initdb.d/musicup.sql &&
                           /entrypoint.sh mysqld'"
   nginx:
     image: nginx:stable-alpine
