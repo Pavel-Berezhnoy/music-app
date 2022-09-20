@@ -12,6 +12,7 @@ const theme = createTheme({
     },
     text: {
       primary: '#e4e4e4',
+      secondary: '#2c2c2c',
     },
     secondary: {
       main: '#e4e4e4',
